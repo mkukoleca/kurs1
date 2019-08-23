@@ -1,5 +1,5 @@
-#Kurs - obuka
-##19.09.2019 - 25.10.2019
+# Kurs - obuka
+## 19.09.2019 - 25.10.2019
 
 Prezentacija za plain PHP na linku:
 
