@@ -11,14 +11,10 @@ Linkovi do skripti:
         '23.08.2019/forma.php',
         '23.08.2019/kalkulator.php',
         '23.08.2019/kalkulator2.php',
+        '26.08.2019/index.php'
     ];
 ?>
-<?php
-    foreach ($links as $link) {
-?>
-
-
-      <a href="<?= $link ?>"><?= $link ?></a><br>
-<?php
-    }
-?>
+<?php 
+foreach ($links as $link) {
+    echo "<a href='{$link}'>{$link}</a><br>";
+} ?>
