@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "4b9e7e8a-6998-4f1a-a017-87122f94da2b",
+		"name": "kurs_basic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:2020/28.08.2019/services.php/articles",
+					"host": [
+						"localhost"
+					],
+					"port": "2020",
+					"path": [
+						"28.08.2019",
+						"services.php",
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET one",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:2020/28.08.2019/services.php/articles/123",
+					"host": [
+						"localhost"
+					],
+					"port": "2020",
+					"path": [
+						"28.08.2019",
+						"services.php",
+						"articles",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - add article",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\":\"Some new article\", \"body\":\"Some article's body\", \"link\": \"http://somearticlelink.com\", \"id\":123}"
+				},
+				"url": {
+					"raw": "localhost:2020/28.08.2019/services.php/articles",
+					"host": [
+						"localhost"
+					],
+					"port": "2020",
+					"path": [
+						"28.08.2019",
+						"services.php",
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - edit article",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\":\"Some new article\",\"body\":\"Some article's body - edited\",\"link\":\"http:\\/\\/somearticlelink.com\",\"id\":123}"
+				},
+				"url": {
+					"raw": "localhost:2020/28.08.2019/services.php/articles/123",
+					"host": [
+						"localhost"
+					],
+					"port": "2020",
+					"path": [
+						"28.08.2019",
+						"services.php",
+						"articles",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:2020/28.08.2019/services.php/articles/123",
+					"host": [
+						"localhost"
+					],
+					"port": "2020",
+					"path": [
+						"28.08.2019",
+						"services.php",
+						"articles",
+						"123"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
