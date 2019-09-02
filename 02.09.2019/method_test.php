@@ -1,7 +1,7 @@
 
 
-<form action="method_test.php?var=value" method="POST">
-    <input name="var" value="value1">
+<form action="method_test.php?get_var=value" method="POST">
+    <input name="post_var" value="value1">
     <input type="submit">
 </form>
 
