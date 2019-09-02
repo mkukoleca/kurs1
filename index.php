@@ -4,17 +4,19 @@
 Linkovi do skripti:
 </p>
 
-<?php 
+<?php
 
     $links = [
         '21.08.2019/test.php',
         '23.08.2019/forma.php',
         '23.08.2019/kalkulator.php',
         '23.08.2019/kalkulator2.php',
-        '26.08.2019/index.php'
+        '26.08.2019/index.php',
+        '02.09.2019/method_test.php'
     ];
-?>
-<?php 
+
 foreach ($links as $link) {
     echo "<a href='{$link}'>{$link}</a><br>";
-} ?>
+} 
+
+?>
