@@ -13,6 +13,8 @@ https://docs.google.com/presentation/d/1UcbHsMxVlgjPq3jhoOa_hcVth1HMyGnJvJ52hmup
 Prezentacija za PDO - PHP DB Access layer:
 
 https://docs.google.com/presentation/d/15OypL9ij2IxWLZdB0D-gKKoU3Ro61GVX/edit#slide=id.p1
+... and code behind the presentation:
+https://github.com/Rmpalija/kurs1
 
 
 Prezentacija za MySQL:
