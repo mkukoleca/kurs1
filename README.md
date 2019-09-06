@@ -10,5 +10,10 @@ Prezentacija za REST servise:
 
 https://docs.google.com/presentation/d/1UcbHsMxVlgjPq3jhoOa_hcVth1HMyGnJvJ52hmup-zI/
 
+
+Prezentacija za MySQL:
+
+https://drive.google.com/file/d/15OypL9ij2IxWLZdB0D-gKKoU3Ro61GVX/view?usp=sharing
+
 ## Uputstvo za upotrebu
 Uradite `git checkout` ovog repozitorijuma u DocumentRoot-u vaseg lokalnog servera te posjetite index.php gdje cete vidjeti sve linkove ka vjezbama koje smo radili na testu.
